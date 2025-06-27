@@ -1,0 +1,23 @@
+fuction  Validate(name) {
+const namePattern=/^[a-zA-Z\s'-]+$/;
+return namePattern.test(name);
+}
+
+Function  validateMobileNumber(mobileNumber)  {
+const  mobilePattern=/^[6-9]\d{9}$/;
+return mobilePattern.test(mobileNumber);
+}
+  
+function  containsOnlyDigits(str)  {
+const regex=/^\d+$/;
+return regex.test(str)
+}
+
+function  containsOnlyAlphabets(str)  {
+const regex=/^[a-zA-Z]+$/;
+return regex.test(str)
+}
+function  containsAlphanumeric(str)  {
+const regex=/^[a-zA-Z0-9]+$/;
+return regex.test(str)
+}

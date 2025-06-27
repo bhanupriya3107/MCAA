@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>mca202</title>
+</head>
+<body bgcolor =pink>
+<a href="sem.html">
+Home
+</a>
+</body>
+</html>
